@@ -38,8 +38,8 @@ function App() {
   <h2 className="text-3xl font-semibold text-white hover:opacity-75 hover:scale-110 transition-transform duration-300">
     Tentang Saya
   </h2>
-  <p className="mt-4 text-xl text-white hover:opacity-75 hover:scale-110 transition-transform duration-300">
-    Nama saya <a className="hover:opacity-75 hover:scale-110 transition-transform duration-300" href={firkoh} target="_self">{nS}</a>, seorang pengembang web yang berpengalaman dalam membangun aplikasi web dengan menggunakan teknologi-teknologi terbaru seperti React, JavaScript, dan HTML. Saya memiliki kemampuan dalam membangun aplikasi web yang cepat, aman, dan mudah digunakan. Saya juga memiliki kemampuan dalam mengembangkan aplikasi web yang skalabel dan dapat diintegrasikan dengan teknologi-teknologi lainnya.
+  <p className="mt-4 text-xl text-white hover:scale-110 transition-transform duration-300">
+    Nama saya <a href={firkoh} target="_self">{nS}</a>, seorang pengembang web yang berpengalaman dalam membangun aplikasi web dengan menggunakan teknologi-teknologi terbaru seperti React, JavaScript, dan HTML. Saya memiliki kemampuan dalam membangun aplikasi web yang cepat, aman, dan mudah digunakan. Saya juga memiliki kemampuan dalam mengembangkan aplikasi web yang skalabel dan dapat diintegrasikan dengan teknologi-teknologi lainnya.
   </p>
 </div>
 </section>
