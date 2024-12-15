@@ -14,6 +14,7 @@ import email from './assets/gmail-svgrepo-com.svg'
 import html from './assets/html.svg'
 import css from './assets/css.svg'
 import arc from './assets/achievement.svg'
+import edu from './assets/education.svg'
 
 
 const nS = "Firgenius Kolose Hombore";
@@ -43,24 +44,24 @@ function App() {
   </p>
 </div>
 </section>
-      <section className="mx-8 mt-12 md:flex md:justify-between">
+      <section className="mx-8 mt-12 md:flex md:justify-between group-edit">
         <div className="md:w-1/2 hover:translate-x-2 hover:opacity-75 hover:scale-110 transition-transform duration-300">
           <h2 className="text-3xl font-semibold text-white">Skill</h2>
           <ol type='number' start='1' className="mt-4 space-y-2 text-xl text-white">
-            <li>HTML (Intermediate)</li>
-            <li>CSS (Intermediate)</li>
-            <li>JavaScript (Intermediate)</li>
-            <li>Tailwind CSS (Basic)</li>
-            <li>Bootstrap (Intermediate)</li>
-            <li>Figma (Basic)</li>
-            <li>React (Basic)</li>
-            <li>Git (Basic)</li>
-            <li>WordPress (Intermediate)</li>
+            <li className='group-edit hover:bg-[#e34c26]'>HTML (Intermediate)</li>
+            <li className="hover:bg-[#563d7c]">CSS (Intermediate)</li>
+            <li className="hover:bg-[#F7DF1E] hover:text-[black]">JavaScript (Intermediate)</li>
+            <li className="hover:bg-white hover:text-[black]">Tailwind CSS (Basic)</li>
+            <li className="hover:bg-[#563d7c]">Bootstrap (Intermediate)</li>
+            <li className="hover:bg-blue-500">Figma (Basic)</li>
+            <li className='hover:bg-red-500'>React (Basic)</li>
+            <li className='hover:bg-[#563d7c]'>Git (Basic)</li>
+            <li className='hover:bg-blue-400'>WordPress (Intermediate)</li>
           </ol>
         </div>
   <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:ml-10 mt-6 md:mt-0">
-    <div className="flex items-center justify-center">
-      <img src={html} className="hover:bg-[#e34c26] w-16 h-16 md:w-20 md:h-20 p-2 rounded transition duration-300" alt={html} />
+    <div className="flex items-center justify-center transition-colors duration-300">
+      <img src={html} className="w-16 h-16 md:w-20 md:h-20 p-2 rounded group-edit hover:bg-[#e34c26] transition duration-300" alt="HTML" />
     </div>
     <div className="flex items-center justify-center">
       <img src={css} className="hover:bg-[#563d7c] w-16 h-16 md:w-20 md:h-20 p-2 rounded transition duration-300" alt={css} />
@@ -101,7 +102,7 @@ function App() {
           </ul>
         </div>
         <div className='md:w-1/2 flex items-center justify-center'>
-          <img src={DP} className="w-20 md:w-30 mt-6 md:mt-0 rounded-full hover:animate-bounce" alt="Firgenius Kolose Hombore" />
+          <img src={edu} className="w-20 md:w-30 mt-6 md:mt-0 rounded-full hover:animate-pulse" alt="Firgenius Kolose Hombore" />
         </div>
       </section>
       <section className="ml-8 mt-12 md:flex md:items-center md:justify-between">

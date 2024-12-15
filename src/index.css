@@ -1,3 +1,5 @@
+* {cursor: default;}
+
 header {
   animation: fadeInDown 2s ease-in-out;
 }
